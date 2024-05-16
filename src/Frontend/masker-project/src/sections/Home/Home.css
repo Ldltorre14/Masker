@@ -27,6 +27,14 @@ body {
     justify-content: space-between;
 }
 
+.photodisplay-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    min-width: 200px;
+    max-width: 90%;
+}
+
 /* Media query for larger screens */
 @media (min-width: 768px) {
     .filter-label-container {
