@@ -1,6 +1,12 @@
 
 .frame{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    align-items: center;
     border-radius: 10%;
-    padding: 5px;
-    background-color: rgb(0, 0, 0);
+    border-color: solid chartreuse;
+    min-width: 90%;
+    min-height: 90%;
 }

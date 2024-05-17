@@ -1,0 +1,19 @@
+.camera{
+    min-width: 90%;
+    min-height: 90%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    align-items: center;
+}
+
+h2{
+    margin: 0.1rem;
+}
+
+video{
+    width: 80%;
+    height: auto;
+    box-shadow: 0px 0px 30px 4px rgba(67,168,26,0.7);
+}

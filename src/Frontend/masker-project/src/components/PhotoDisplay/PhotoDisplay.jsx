@@ -1,10 +1,16 @@
-import React from "react";
+import React, {useEffect, useRef} from "react";
+import WebCam from "../WebCam/WebCam";
 import "./PhotoDisplay.css"
 
-function PhotoDisplay(){
+function PhotoDisplay({filterName, children}){
+    const videoRef = useRef(null)
+
+
     return(
         <div className="frame">
-            frame
+            <h2>{filterName}</h2>
+            <WebCam />
+            {children}
         </div>
     )
     
