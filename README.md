@@ -1,7 +1,7 @@
 # Masker Application
 
 This repository contains the code for the Masker application, which includes a Flask API for image processing and a Tkinter frontend for interacting with the application. Follow the steps below to set up and run both components of the application.
-
+ 
 ## Prerequisites
 
 - Python 3.8 or higher
